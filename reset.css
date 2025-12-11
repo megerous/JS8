@@ -1,0 +1,56 @@
+/* Universal box-sizing for easier layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+figcaption,
+hr,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Inherit font styles for form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove default text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Or a specific color */
+}
+
+/* Reset image display */
+img {
+  max-width: 100%;
+  display: block;
+}
